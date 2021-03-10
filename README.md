@@ -4,9 +4,7 @@ A playable 2D platformer with a procedural level generator, made with Typescript
 ## Overview
 This project contains 2 primary distinct, but related, components: a game engine and a level editor. The engine is obviously very simple and is optimized to run this particular game, but while developing it, I tried to keep it as robust as possible where I didn't have to sacrifice efficiency. The level generator was heavily inspired by "Rhythm-Based Level Generation for 2D Platformers", a paper written by Gillian Smith, Mike Treanor, Jim Whitehead, and Michael Mateas at the University of California (as of April 2019, the paper can be found [here](https://users.soe.ucsc.edu/~ejw/papers/smith-platformer-generation-fdg2009.pdf)). See below for a detailed account of how all the different aspects of this project were implemented. 
 
-__A live demo can be found [here](https://sgalban.github.io/platformer-gen-2D/)__
-
-![](img/gameScreenshot.png)
+__If I am not too lazy, a live demo can be found [here](https://mskr.github.io/platformer-gen-2D/)__
 
 ### How To Play
 #### Generating a level

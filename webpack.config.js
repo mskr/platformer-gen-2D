@@ -31,8 +31,16 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
-    port: 5660,
+    port: process.env.PORT || 3000,
     overlay: true,
+    
+    hot: true,
+    host: "0.0.0.0",
+    allowedHosts: [
+      ".repl.it",
+      ".repl.co",
+      ".repl.run"
+    ]
   },
   mode: "none",
 };

@@ -105,5 +105,7 @@ void main() {
         layer2.a > 0.5 ? layer2 :
         sky;
 
-    out_Col = vec4(color.rgb, 1);
+    vec4 brighter = mix(color, vec4(.5,.5,1,1), .5);
+
+    out_Col = vec4(brighter.rgb, 1);
 }
